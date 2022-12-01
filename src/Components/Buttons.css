@@ -1,0 +1,42 @@
+.toggled .Buttons {
+    animation: fadein ease 4s;
+    position: absolute;
+    top: 0%;
+    right: 2%;
+}
+
+.Buttons .linkedIn {
+    float: right;
+    margin-top: 1vmin;
+
+    background: url('../Images/Buttons/linkedIn.png');
+    background-size: cover;
+    border: none;
+
+    font-size: 2.5vmin;
+    height: 5vmin;
+    width: 5vmin;
+}
+
+.Buttons .eMail {
+    float: right;
+    margin-right: 1vmin;
+    margin-top: 1.5vmin;
+
+    background: url('../Images/Buttons/EMail.png');
+    background-size: cover;
+    border: none;
+
+    font-size: 2.5vmin;
+    height: 4vmin;
+    width: 5.4vmin;
+}
+
+.Buttons button:hover {
+    cursor: pointer;
+    box-shadow: #ffffff 0.1vmin 0 1vmin;
+}
+
+.eMail:hover {
+    border-color: none !important;
+}
